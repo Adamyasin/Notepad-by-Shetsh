@@ -1,0 +1,83 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@color/s2">
+
+
+    <View
+        android:id="@+id/view1"
+        android:layout_width="match_parent"
+        android:layout_height="95dp"
+        />
+    <!-- TextView untuk judul -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Input Account"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        android:gravity="center"
+        android:layout_marginTop="25dp"/>
+
+    <!-- LinearLayout dengan background box -->
+    <LinearLayout
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/view1"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/box"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:layout_marginTop="15dp">
+
+    <!-- EditText untuk nomor -->
+    <EditText
+        android:id="@+id/etCompany"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Company"
+        android:drawablePadding="12dp"
+        android:drawableLeft="@drawable/group"
+        android:inputType="text"
+        android:layout_marginTop="6dp"/>
+
+    <!-- EditText untuk nama -->
+    <EditText
+        android:id="@+id/etEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawablePadding="12dp"
+        android:drawableLeft="@drawable/person"
+        android:hint="Email"
+        android:inputType="text"
+        android:layout_marginTop="6dp"/>
+
+    <!-- EditText untuk password -->
+    <EditText
+        android:id="@+id/etPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawablePadding="12dp"
+        android:drawableLeft="@drawable/person"
+        android:hint="Password"
+        android:inputType="text"
+        android:layout_marginTop="6dp"/>
+
+</LinearLayout>
+
+    <!-- Button Simpan -->
+    <Button
+    android:id="@+id/btnSimpan"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Simpan"
+    android:layout_alignParentEnd="true"
+    android:layout_alignParentBottom="true"
+    android:layout_marginStart="16dp"
+    android:layout_marginTop="16dp"
+    android:layout_marginEnd="16dp"
+    android:layout_marginBottom="16dp"
+    android:backgroundTint="@color/p1"/>
+    </RelativeLayout>

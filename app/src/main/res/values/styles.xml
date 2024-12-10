@@ -1,0 +1,20 @@
+<resources>
+
+    <!-- Tema aplikasi Anda -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Other style attributes -->
+        <!-- Jangan menambahkan shapeAppearanceOverlay di sini -->
+    </style>
+
+    <!-- Definisi shapeAppearanceOverlay -->
+    <style name="ShapeAppearanceOverlay.MaterialComponents.Circle" parent="ShapeAppearance.MaterialComponents.SmallComponent">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">50%</item>
+    </style>
+
+    <style name="kotak" parent="ShapeAppearance.MaterialComponents.SmallComponent">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">30%</item>
+    </style>
+
+</resources>
